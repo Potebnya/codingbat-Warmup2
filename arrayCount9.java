@@ -1,16 +1,21 @@
 package com.potebnya.StartJava.CodainBat.WarmUp2;
 
+//Given an array of ints, return the number of 9's in the array.
+//
+//
+//        arrayCount9([1, 2, 9]) → 1
+//        arrayCount9([1, 9, 9]) → 2
+//        arrayCount9([1, 9, 9, 3, 9]) → 3
+
 public class arrayCount9 {
-    public static void main(int[] args) {
-        int[] numbs =  numbs = new int[9];
-
+    public int arrayCount9(int[] nums) {
         int count = 0;
-        for(int a = 0; a < numbs.length(); a++){
-             int each =   numbs[a] ;
-             if (each == 9) count ++;
+        int a = 0;
+        for(; a < nums.length; a++){
 
+            if(nums[a] == 9) count++;
 
         }
-        count = count;
+        return count;
     }
 }
